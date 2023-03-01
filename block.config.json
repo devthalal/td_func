@@ -1,0 +1,13 @@
+{
+  "name": "td_func",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/td_func",
+    "ssh": "git@github.com:devthalal/td_func.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
